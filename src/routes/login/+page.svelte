@@ -19,7 +19,7 @@
 		if (authError) {
 			toast.error(authError.message);
 		} else {
-			toast.success('Successfully logged in/signed up!');
+			toast.success('Sent login link to email');
 			goto('/onboarding');
 		}
 	}
